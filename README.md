@@ -1,5 +1,5 @@
 # Adaptive-ACO-in-Stock-Portfolio-Optimization
-I. Project Background
+## I. Project Background
 In the field of financial investment, optimizing stock portfolios is of utmost importance. Investors aim to maximize returns while keeping risks under control. Traditional methods such as the mean - variance model have limitations when dealing with complex market conditions and real - world constraints. The ant colony algorithm, as an emerging heuristic optimization algorithm, offers good global search ability and adaptability, providing a new approach to stock portfolio optimization. This project aims to enhance the performance of the ant colony algorithm in stock portfolio optimization through improvements, assisting investors in making more rational investment decisions.
 II. Technical Principles
 (I) Foundation of the Ant Colony Algorithm
