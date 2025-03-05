@@ -24,7 +24,7 @@ Application of the Improved Ant Colony Algorithm: The stock portfolio problem is
 
 
 <div align=center>
-<img src="[https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/exported_image%20(1).png](https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/ex02.png)">
+<img src="https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/ex02.png">
 </div>
 
 ## III. Experimental Process and Results
