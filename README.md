@@ -4,13 +4,21 @@ In the field of financial investment, optimizing stock portfolios is of utmost i
 ## II. Technical Principles
 ### (I) Foundation of the Ant Colony Algorithm
 Basic Principle: The ant colony algorithm mimics the foraging behavior of ant colonies. Ants communicate information by releasing pheromones. Paths with higher pheromone concentrations are more likely to be chosen by subsequent ants, forming a positive feedback mechanism that guides the colony to find the optimal path. Meanwhile, pheromones evaporate over time to prevent the algorithm from getting trapped in local optima.
+
+
 Mathematical Model: Taking the classic Traveling Salesman Problem (TSP) as an example, symbols such as the number of ants, distances between cities, heuristic functions, and pheromone intensities are defined. Ants choose paths based on the transition probability formula, and pheromones are dynamically adjusted according to the update rules.
 ### (II) Improvement Strategies
 Max - Min Ant System (MMAS): The pheromone intensity is restricted to the interval [τmin, τmax] to avoid premature convergence of the algorithm. Initially, the pheromone is set to τmax, allowing ants to explore new paths more fully in the early stages of the algorithm.
+
+
 Adaptive Pheromone Update: A smoothing mechanism is adopted to adaptively adjust the pheromone update, reducing the range of pheromone differences among paths, balancing deterministic and random selections, and enhancing the global search ability.
+
+
 Elite Ant Strategy: Ants whose path - finding results are highly similar to the previously discovered optimal results are designated as elite ants. Their path - finding results have a greater impact on the search for the global optimal solution, improving the algorithm's efficiency.
 ### (III) Stock Portfolio Optimization Model
 Mean - Variance Model: Based on Markowitz's theory, the mean of the portfolio's expected return and the variance of the return standard deviation are used to measure the return and risk of the investment portfolio. A quadratic optimal programming model is constructed to find the optimal investment portfolio on the efficient frontier.
+
+
 Application of the Improved Ant Colony Algorithm: The stock portfolio problem is modeled, and relevant symbols are defined. Ants determine the transition probability to select stocks based on the heuristic function and pheromone intensity, thereby constructing an investment portfolio. After each cycle, the pheromone is updated according to the improved pheromone update method, and elite ants are recorded to optimize the algorithm's solution process.
 ## III. Experimental Process and Results
 ### (I) Data Processing
