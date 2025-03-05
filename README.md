@@ -21,6 +21,12 @@ Elite Ant Strategy: Ants whose path - finding results are highly similar to the 
 Mean - Variance Model: Based on Markowitz's theory, the mean of the portfolio's expected return and the variance of the return standard deviation are used to measure the return and risk of the investment portfolio. A quadratic optimal programming model is constructed to find the optimal investment portfolio on the efficient frontier.
 
 Application of the Improved Ant Colony Algorithm: The stock portfolio problem is modeled, and relevant symbols are defined. Ants determine the transition probability to select stocks based on the heuristic function and pheromone intensity, thereby constructing an investment portfolio. After each cycle, the pheromone is updated according to the improved pheromone update method, and elite ants are recorded to optimize the algorithm's solution process.
+
+
+<div align=center>
+<img src="[https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/exported_image%20(1).png](https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/ex02.png)">
+</div>
+
 ## III. Experimental Process and Results
 ### (I) Data Processing
 Data from five A - share stocks, namely China Southern Airlines, Shanghai Pufa Bank, Xinhuamedia Investment Co., Ltd., Sinopec, and Ping An Insurance (Group) Company of China, Ltd., for a total of 95 trading days from March 1, 2023, to May 26, 2023, were selected. The daily returns were calculated, and the return change curves were plotted. The mean and variance were calculated to measure the risk and return.
