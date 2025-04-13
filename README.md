@@ -14,7 +14,7 @@ Adaptive Pheromone Update: A smoothing mechanism is adopted to adaptively adjust
 Elite Ant Strategy: Ants whose path - finding results are highly similar to the previously discovered optimal results are designated as elite ants. Their path - finding results have a greater impact on the search for the global optimal solution, improving the algorithm's efficiency.
 
 <div align=center>
-<img src="https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/Structure of Adjusted-ACO.png">
+<img src="https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/Structure of Adjusted-ACO.png" width = 600>
 </div>
 
 ### (III) Stock Portfolio Optimization Model
@@ -24,7 +24,7 @@ Application of the Improved Ant Colony Algorithm: The stock portfolio problem is
 
 
 <div align=center>
-<img src="https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/ex02.png" width = 450>
+<img src="https://github.com/Seailvia/Adaptive-ACO-in-Stock-Portfolio-Optimization/blob/main/ex02.png" width = 600>
 </div>
 
 ## III. Experimental Process and Results
