@@ -32,12 +32,12 @@ Application of the Improved Ant Colony Algorithm: The stock portfolio problem is
 Data from five A - share stocks, namely China Southern Airlines, Shanghai Pufa Bank, Xinhuamedia Investment Co., Ltd., Sinopec, and Ping An Insurance (Group) Company of China, Ltd., for a total of 95 trading days from March 1, 2023, to May 26, 2023, were selected. The daily returns were calculated, and the return change curves were plotted. The mean and variance were calculated to measure the risk and return.
 ### (II) Experimental Comparison
 The improved ant colony algorithm and the traditional ant colony algorithm were used to optimize the investment portfolios of the five stocks respectively. The results show that the investment portfolio obtained by the improved ant colony algorithm has a higher return (0.002978005 > 0.002332791) and lower risk (0.000430079 < 0.000461677). The Sharpe ratio of the improved ant colony algorithm is 0.136, significantly higher than that of the traditional ant colony algorithm (0.101), indicating that the improved algorithm can provide a higher investment return based on unit risk.
-<div style="text-align: center;">
+
 |  | Rate of Return | Risk |
 | --- | --- | --- |
 | Traditional Ant Colony | 0.002332791 | 0.000461677 |
 | Improved Ant Colony | 0.002978005 | 0.000430079 |
-</div>
+
 ## IV. Project Advantages
 Efficiency: Through various optimization strategies, the improved ant colony algorithm has a faster convergence speed and can find a relatively optimal solution in fewer iterations, improving the efficiency of portfolio optimization.
 
