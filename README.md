@@ -33,10 +33,25 @@ Data from five A - share stocks, namely China Southern Airlines, Shanghai Pufa B
 ### (II) Experimental Comparison
 The improved ant colony algorithm and the traditional ant colony algorithm were used to optimize the investment portfolios of the five stocks respectively. The results show that the investment portfolio obtained by the improved ant colony algorithm has a higher return (0.002978005 > 0.002332791) and lower risk (0.000430079 < 0.000461677). The Sharpe ratio of the improved ant colony algorithm is 0.136, significantly higher than that of the traditional ant colony algorithm (0.101), indicating that the improved algorithm can provide a higher investment return based on unit risk.
 
-|  | Rate of Return | Risk |
-| --- | --- | --- |
-| Traditional Ant Colony | 0.002332791 | 0.000461677 |
-| Improved Ant Colony | 0.002978005 | 0.000430079 |
+<div style="display: flex; justify-content: center;">
+<table>
+  <tr>
+    <th></th>
+    <th>Rate of Return</th>
+    <th>Risk</th>
+  </tr>
+  <tr>
+    <td>Traditional Ant Colony</td>
+    <td>0.002332791</td>
+    <td>0.000461677</td>
+  </tr>
+  <tr>
+    <td>Improved Ant Colony</td>
+    <td>0.002978005</td>
+    <td>0.000430079</td>
+  </tr>
+</table>
+</div>
 
 ## IV. Project Advantages
 Efficiency: Through various optimization strategies, the improved ant colony algorithm has a faster convergence speed and can find a relatively optimal solution in fewer iterations, improving the efficiency of portfolio optimization.
